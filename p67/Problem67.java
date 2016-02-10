@@ -4,7 +4,7 @@ import java.io.RandomAccessFile;
 
 public class Problem67 {
     /*
-    Java implementation of the Maximum path sum 1 problem (problem 18) at projecteuler.net.
+    Java implementation of the Maximum path sum 2 problem (problem 67) at projecteuler.net.
     As the maximum path from top to bottom is of course equal to the maximum path from bottom to top,
     we can utilize dynamic programming.
      */
