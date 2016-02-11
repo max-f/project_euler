@@ -42,7 +42,7 @@ public class Problem21 {
          */
         List<Integer> divisors = new ArrayList<Integer>();
         divisors.add(1);
-        for (int i = 2; i < Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 if (Math.pow(i, 2) == n) {
                     divisors.add(i);
